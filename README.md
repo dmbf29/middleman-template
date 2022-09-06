@@ -39,7 +39,7 @@ or if that fails, try
 
 ## Deploy
 1. [Sign into Netlify](https://www.netlify.com/)
-2. Add new site from Git
+2. Add new site -> Import an existing project -> Github
 3. Choose repository and branch
 4. Make sure your deploy settings look like this:
 <img width="400" alt="Screen Shot 2021-06-18 at 14 19 13" src="https://user-images.githubusercontent.com/25542223/122510271-49d34900-d040-11eb-853f-5105b5d48fcd.png">
