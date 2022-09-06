@@ -35,12 +35,31 @@
 
 .card-product .card-product-infos {
   padding: 16px;
+  &:hover {
+    .external-link {
+      opacity: 1;
+    }
+  }
+}
+
+.external-link {
+  margin-left: 8px;
+  opacity: 0;
+  color: $gray;
+  transition: opacity 1s;
+  &:hover {
+    cursor: pointer;
+    color: $gray
+  }
 }
 
 // Smallest device
 @media (min-width: 100px) and (max-width: 575px) {
   .cards {
     grid-template-columns: 1fr;
+  }
+  .external-link {
+    opacity: 1;
   }
 }
 
@@ -49,12 +68,18 @@
   .cards {
     grid-template-columns: 1fr;
   }
+  .external-link {
+    opacity: 1;
+  }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   .cards {
     grid-template-columns: 1fr 1fr;
+  }
+  .external-link {
+    opacity: 0;
   }
 }
 
