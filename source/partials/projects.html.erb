@@ -1,0 +1,14 @@
+<div class="row">
+  <div class="col-12">
+    <div class="container">
+      <div id="projects">
+        <h2> Projects</h2>
+        <div class="cards">
+          <% data.projects.each do |project| %>
+            <%= partial 'partials/project_card', locals: { project: project } %>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
