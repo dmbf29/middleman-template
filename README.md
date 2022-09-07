@@ -9,20 +9,15 @@ A simple way to build static pages with a Rails feel.
 - [FontAwesome](https://fontawesome.com/icons)
 
 ## Init a new project
-1. Click the green `Use this Template` button and give your project a name
-2. In the new project, click on the green `Code` button to copy your SSH address
-3. `cd` into the folder named after your Github username in your Terminal
-4. Clone the repository like this
-`git clone git@github.com:dmbf29/NAME_OF_YOUR_PROJECT.git `
-5. Move into the directory `cd NAME_OF_YOUR_PROJECT`
+1. In the repo, click on the green `Code` button to copy your SSH address
+2. In Terminal, move to your code folder (or where you want to download the new repo)
+3. Clone the repository like this
+`git clone git@github.com:dmbf29/middleman-template.git portfolio`
+4. Move into the directory `cd portfolio`
+5. Remove the connection to my Github `git remote remove origin`
+6. Create your own repo `gh repo create`
 
 ### Installation
-*Only if you don't have bundler or yarn*
-```
-gem install bundler
-brew install yarn
-```
-Then:
 ```
 gem install middleman
 bundle install
@@ -48,11 +43,6 @@ or if that fails, try
 
 ## Meta Tags
 To use the gem `middlman-metaman`, [follow these setup instructions](https://github.com/cacheventures/middleman-metaman/)
-
-## Preinstalled
-- [Bootstrap 4.6 CSS & JS](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
-- Font Awesome CDN
-- Webpack
 
 ## Contributing
 
