@@ -5,15 +5,15 @@ A simple way to build static pages with a Rails feel.
 
 - [Middleman](https://middlemanapp.com)
 - [Sass](https://sass-lang.com)
-- [Boostrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+- [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 - [FontAwesome](https://fontawesome.com/icons)
 
 ## Init a new project
 1. In the repo, click on the green `Code` button to copy your SSH address
 2. In Terminal, move to your code folder (or where you want to download the new repo)
 3. Clone the repository like this
-`git clone git@github.com:dmbf29/middleman-template.git portfolio`
-4. Move into the directory `cd portfolio`
+`git clone git@github.com:dmbf29/middleman-template.git middleman-portfolio`
+4. Move into the directory `cd middleman-portfolio`
 5. Remove the connection to my Github `git remote remove origin`
 6. Create your own repo `gh repo create`
 
@@ -21,7 +21,6 @@ A simple way to build static pages with a Rails feel.
 ```
 gem install middleman
 bundle install
-yarn install
 ```
 ⚠️ You may run into some into some gem warnings.<br>
 Warnings == 👌, but Fatal errors == ⛔️<br>
