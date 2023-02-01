@@ -41,7 +41,7 @@ or if that fails, try
 6. (Add purchased domain)
 
 ## Meta Tags
-You can copy and paste these meta tags inside your `<head></head>`
+You can copy and paste these meta tags inside your `<head></head>` and update the information.
 ```
 <title><%= current_page.data.title || "NAME OF MY SITE | MY TITLE" %></title>
 <meta name="description" content="Description of my portfolio site">
