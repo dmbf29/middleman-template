@@ -41,7 +41,25 @@ or if that fails, try
 6. (Add purchased domain)
 
 ## Meta Tags
-To use the gem `middlman-metaman`, [follow these setup instructions](https://github.com/cacheventures/middleman-metaman/)
+You can copy and paste these meta tags inside your `<head></head>`
+```
+<title><%= current_page.data.title || "NAME OF MY SITE | MY TITLE" %></title>
+<meta name="description" content="Description of my portfolio site">
+<!-- Facebook Open Graph data -->
+<meta property="og:title" content="NAME OF MY SITE | MY TITLE" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="THE_URL_OF_MY_PORTFOLIO" />
+<meta property="og:image" content="<%= image_path 'MY_OG_IMAGE_WITH_RIGHT_SIZE.png' %>" />
+<meta property="og:description" content="Description of my portfolio site" />
+<meta property="og:site_name" content="NAME OF MY SITE | MY TITLE" />
+<!-- Twitter Card data -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@twitter_handle">
+<meta name="twitter:title" content="NAME OF MY SITE | MY TITLE">
+<meta name="twitter:description" content="Description of my portfolio site">
+<meta name="twitter:creator" content="@twitter_handle">
+<meta name="twitter:image:src" content="<%= image_path 'MY_OG_IMAGE_WITH_RIGHT_SIZE.png' %>">
+```
 
 ## Contributing
 
