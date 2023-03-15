@@ -5,28 +5,22 @@ A simple way to build static pages with a Rails feel.
 
 - [Middleman](https://middlemanapp.com)
 - [Sass](https://sass-lang.com)
-- [Boostrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+- [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 - [FontAwesome](https://fontawesome.com/icons)
 
 ## Init a new project
-1. Click the green `Use this Template` button and give your project a name
-2. In the new project, click on the green `Code` button to copy your SSH address
-3. `cd` into the folder named after your Github username in your Terminal
-4. Clone the repository like this
-`git clone git@github.com:dmbf29/NAME_OF_YOUR_PROJECT.git `
-5. Move into the directory `cd NAME_OF_YOUR_PROJECT`
+1. In the repo, click on the green `Code` button to copy your SSH address
+2. In Terminal, move to your code folder (or where you want to download the new repo)
+3. Clone the repository like this
+`git clone git@github.com:dmbf29/middleman-template.git middleman-portfolio`
+4. Move into the directory `cd middleman-portfolio`
+5. Remove the connection to my Github `git remote remove origin`
+6. Create your own repo `gh repo create`
 
 ### Installation
-*Only if you don't have bundler or yarn*
-```
-gem install bundler
-brew install yarn
-```
-Then:
 ```
 gem install middleman
 bundle install
-yarn install
 ```
 ⚠️ You may run into some into some gem warnings.<br>
 Warnings == 👌, but Fatal errors == ⛔️<br>
@@ -47,12 +41,25 @@ or if that fails, try
 6. (Add purchased domain)
 
 ## Meta Tags
-To use the gem `middlman-metaman`, [follow these setup instructions](https://github.com/cacheventures/middleman-metaman/)
-
-## Preinstalled
-- [Bootstrap 4.6 CSS & JS](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
-- Font Awesome CDN
-- Webpack
+You can copy and paste these meta tags inside your `<head></head>` and update the information.
+```
+<title><%= current_page.data.title || "NAME OF MY SITE | MY TITLE" %></title>
+<meta name="description" content="Description of my portfolio site">
+<!-- Facebook Open Graph data -->
+<meta property="og:title" content="NAME OF MY SITE | MY TITLE" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="THE_URL_OF_MY_PORTFOLIO" />
+<meta property="og:image" content="<%= image_path 'MY_OG_IMAGE_WITH_RIGHT_SIZE.png' %>" />
+<meta property="og:description" content="Description of my portfolio site" />
+<meta property="og:site_name" content="NAME OF MY SITE | MY TITLE" />
+<!-- Twitter Card data -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@twitter_handle">
+<meta name="twitter:title" content="NAME OF MY SITE | MY TITLE">
+<meta name="twitter:description" content="Description of my portfolio site">
+<meta name="twitter:creator" content="@twitter_handle">
+<meta name="twitter:image:src" content="<%= image_path 'MY_OG_IMAGE_WITH_RIGHT_SIZE.png' %>">
+```
 
 ## Contributing
 
