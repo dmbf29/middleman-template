@@ -17,7 +17,7 @@ A simple way to build static pages with a Rails feel.
 5. Remove my git history. `rm -rf .git`
 5. Remove the connection to my Github `git remote remove origin`
 6. Start a new git repo in that folder `git init`
-7. Create your own repo `gh repo create`
+7. Create your own repo `gh repo create middleman-portfolio --public --source=.`
 
 ### Installation
 ```
