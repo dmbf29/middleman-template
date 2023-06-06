@@ -14,8 +14,10 @@ A simple way to build static pages with a Rails feel.
 3. Clone the repository like this
 `git clone git@github.com:dmbf29/middleman-template.git middleman-portfolio`
 4. Move into the directory `cd middleman-portfolio`
+5. Remove my git history. `rm -rf .git`
 5. Remove the connection to my Github `git remote remove origin`
-6. Create your own repo `gh repo create`
+6. Start a new git repo in that folder `git init`
+7. Create your own repo `gh repo create`
 
 ### Installation
 ```
