@@ -2,23 +2,33 @@
   description: Decent description of the app
   image: projects/placeholder.png
   url: https://www.google.com
+  github: https://www.github.com
+  online: true
 
 - name: Movie Watchlist
   description: Decent description of the app
   image: projects/placeholder.png
   url: https://www.google.com
+  github: https://www.github.com
+  online: true
 
 - name: Airbnb
   description: Decent description of the app
   image: projects/placeholder.png
   url: https://www.google.com
+  github: https://www.github.com
+  online: true
 
 - name: Final project
   description: Decent description of the app
   image: projects/placeholder.png
   url: https://www.google.com
+  github: https://www.github.com
+  online: true
 
 - name: Yelp
   description: Decent description of the app
   image: projects/placeholder.png
   url: https://www.google.com
+  github: https://www.github.com
+  online: false
