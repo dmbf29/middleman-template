@@ -9,14 +9,30 @@ A simple way to build static pages with a Rails feel.
 - [FontAwesome](https://fontawesome.com/icons)
 
 ## Init a new project
-1. In the repo, click on the green `Code` button to copy your SSH address
-2. In Terminal, move to your code folder (or where you want to download the new repo)
-3. Clone the repository like this
-`git clone git@github.com:dmbf29/middleman-template.git middleman-portfolio`
-4. Move into the directory `cd middleman-portfolio`
-5. Remove my git history. `rm -rf .git`
-6. Start a new git repo in that folder `git init`
-7. Create your own repo `gh repo create middleman-portfolio --public --source=.`
+1. In Terminal, move to Github username folder (or where you want to download the new repo)
+```
+cd ~/code/GITHUB_USERNAME
+```
+2. Clone the repository like this
+```
+git clone git@github.com:dmbf29/middleman-template.git middleman-portfolio
+```
+4. Move into the directory 
+```
+cd middleman-portfolio
+```
+5. Remove my git history 
+```
+rm -rf .git
+```
+6. Start a new git repo in that folder 
+```
+git init
+```
+7. Create your own repo 
+```
+gh repo create middleman-portfolio --public --source=.
+```
 
 ### Installation
 ```
